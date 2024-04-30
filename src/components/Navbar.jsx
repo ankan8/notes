@@ -31,7 +31,7 @@ class Navbar extends Component {
               </li>
             );
           })}
-          <button className="kiki">Sign up</button>
+          {/* <button className="kiki">Sign up</button> */}
         </ul>
       </nav>
     );
