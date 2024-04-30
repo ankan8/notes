@@ -1,0 +1,33 @@
+.form-container {
+  margin: 4rem 6rem;
+  color: #2a2424;
+}
+.form-container form {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+.form-container input {
+  height: 3rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid #04b1fb;
+}
+
+.form-container button {
+  height: 30px;
+  background: rgb(5, 159, 255);
+  color: white;
+  border-radius: 9px;
+}
+.form-container button:hover {
+  height: 30px;
+  background: #2a2a2a;
+  color: white;
+  border-radius: 7px;
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
